@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62E237221C07F697008F33D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E237211C07F697008F33D1 /* AppDelegate.swift */; };
+		62E237241C07F697008F33D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E237231C07F697008F33D1 /* ViewController.swift */; };
+		62E237271C07F697008F33D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E237251C07F697008F33D1 /* Main.storyboard */; };
+		62E237291C07F697008F33D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E237281C07F697008F33D1 /* Assets.xcassets */; };
+		62E2372C1C07F697008F33D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E2372A1C07F697008F33D1 /* LaunchScreen.storyboard */; };
+		62E237371C07F697008F33D1 /* GoomapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E237361C07F697008F33D1 /* GoomapTests.swift */; };
+		62E237421C07F697008F33D1 /* GoomapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E237411C07F697008F33D1 /* GoomapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62E237331C07F697008F33D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E237161C07F697008F33D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E2371D1C07F697008F33D1;
+			remoteInfo = Goomap;
+		};
+		62E2373E1C07F697008F33D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E237161C07F697008F33D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E2371D1C07F697008F33D1;
+			remoteInfo = Goomap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62E2371E1C07F697008F33D1 /* Goomap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goomap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E237211C07F697008F33D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62E237231C07F697008F33D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62E237261C07F697008F33D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62E237281C07F697008F33D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62E2372B1C07F697008F33D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62E2372D1C07F697008F33D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E237321C07F697008F33D1 /* GoomapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoomapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E237361C07F697008F33D1 /* GoomapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoomapTests.swift; sourceTree = "<group>"; };
+		62E237381C07F697008F33D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E2373D1C07F697008F33D1 /* GoomapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoomapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E237411C07F697008F33D1 /* GoomapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoomapUITests.swift; sourceTree = "<group>"; };
+		62E237431C07F697008F33D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E2371B1C07F697008F33D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E2372F1C07F697008F33D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E2373A1C07F697008F33D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62E237151C07F697008F33D1 = {
+			isa = PBXGroup;
+			children = (
+				62E237201C07F697008F33D1 /* Goomap */,
+				62E237351C07F697008F33D1 /* GoomapTests */,
+				62E237401C07F697008F33D1 /* GoomapUITests */,
+				62E2371F1C07F697008F33D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62E2371F1C07F697008F33D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E2371E1C07F697008F33D1 /* Goomap.app */,
+				62E237321C07F697008F33D1 /* GoomapTests.xctest */,
+				62E2373D1C07F697008F33D1 /* GoomapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E237201C07F697008F33D1 /* Goomap */ = {
+			isa = PBXGroup;
+			children = (
+				62E237211C07F697008F33D1 /* AppDelegate.swift */,
+				62E237231C07F697008F33D1 /* ViewController.swift */,
+				62E237251C07F697008F33D1 /* Main.storyboard */,
+				62E237281C07F697008F33D1 /* Assets.xcassets */,
+				62E2372A1C07F697008F33D1 /* LaunchScreen.storyboard */,
+				62E2372D1C07F697008F33D1 /* Info.plist */,
+			);
+			path = Goomap;
+			sourceTree = "<group>";
+		};
+		62E237351C07F697008F33D1 /* GoomapTests */ = {
+			isa = PBXGroup;
+			children = (
+				62E237361C07F697008F33D1 /* GoomapTests.swift */,
+				62E237381C07F697008F33D1 /* Info.plist */,
+			);
+			path = GoomapTests;
+			sourceTree = "<group>";
+		};
+		62E237401C07F697008F33D1 /* GoomapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62E237411C07F697008F33D1 /* GoomapUITests.swift */,
+				62E237431C07F697008F33D1 /* Info.plist */,
+			);
+			path = GoomapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62E2371D1C07F697008F33D1 /* Goomap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E237461C07F697008F33D1 /* Build configuration list for PBXNativeTarget "Goomap" */;
+			buildPhases = (
+				62E2371A1C07F697008F33D1 /* Sources */,
+				62E2371B1C07F697008F33D1 /* Frameworks */,
+				62E2371C1C07F697008F33D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goomap;
+			productName = Goomap;
+			productReference = 62E2371E1C07F697008F33D1 /* Goomap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62E237311C07F697008F33D1 /* GoomapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E237491C07F697008F33D1 /* Build configuration list for PBXNativeTarget "GoomapTests" */;
+			buildPhases = (
+				62E2372E1C07F697008F33D1 /* Sources */,
+				62E2372F1C07F697008F33D1 /* Frameworks */,
+				62E237301C07F697008F33D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E237341C07F697008F33D1 /* PBXTargetDependency */,
+			);
+			name = GoomapTests;
+			productName = GoomapTests;
+			productReference = 62E237321C07F697008F33D1 /* GoomapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62E2373C1C07F697008F33D1 /* GoomapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E2374C1C07F697008F33D1 /* Build configuration list for PBXNativeTarget "GoomapUITests" */;
+			buildPhases = (
+				62E237391C07F697008F33D1 /* Sources */,
+				62E2373A1C07F697008F33D1 /* Frameworks */,
+				62E2373B1C07F697008F33D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E2373F1C07F697008F33D1 /* PBXTargetDependency */,
+			);
+			name = GoomapUITests;
+			productName = GoomapUITests;
+			productReference = 62E2373D1C07F697008F33D1 /* GoomapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E237161C07F697008F33D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Reason?";
+				TargetAttributes = {
+					62E2371D1C07F697008F33D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					62E237311C07F697008F33D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 62E2371D1C07F697008F33D1;
+					};
+					62E2373C1C07F697008F33D1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 62E2371D1C07F697008F33D1;
+					};
+				};
+			};
+			buildConfigurationList = 62E237191C07F697008F33D1 /* Build configuration list for PBXProject "Goomap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62E237151C07F697008F33D1;
+			productRefGroup = 62E2371F1C07F697008F33D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62E2371D1C07F697008F33D1 /* Goomap */,
+				62E237311C07F697008F33D1 /* GoomapTests */,
+				62E2373C1C07F697008F33D1 /* GoomapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62E2371C1C07F697008F33D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E2372C1C07F697008F33D1 /* LaunchScreen.storyboard in Resources */,
+				62E237291C07F697008F33D1 /* Assets.xcassets in Resources */,
+				62E237271C07F697008F33D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E237301C07F697008F33D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E2373B1C07F697008F33D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62E2371A1C07F697008F33D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E237241C07F697008F33D1 /* ViewController.swift in Sources */,
+				62E237221C07F697008F33D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E2372E1C07F697008F33D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E237371C07F697008F33D1 /* GoomapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E237391C07F697008F33D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E237421C07F697008F33D1 /* GoomapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62E237341C07F697008F33D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E2371D1C07F697008F33D1 /* Goomap */;
+			targetProxy = 62E237331C07F697008F33D1 /* PBXContainerItemProxy */;
+		};
+		62E2373F1C07F697008F33D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E2371D1C07F697008F33D1 /* Goomap */;
+			targetProxy = 62E2373E1C07F697008F33D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62E237251C07F697008F33D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E237261C07F697008F33D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62E2372A1C07F697008F33D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E2372B1C07F697008F33D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62E237441C07F697008F33D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62E237451C07F697008F33D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62E237471C07F697008F33D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goomap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ukohank517.Goomap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62E237481C07F697008F33D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Goomap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ukohank517.Goomap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62E2374A1C07F697008F33D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoomapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ukohank517.GoomapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goomap.app/Goomap";
+			};
+			name = Debug;
+		};
+		62E2374B1C07F697008F33D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoomapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ukohank517.GoomapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goomap.app/Goomap";
+			};
+			name = Release;
+		};
+		62E2374D1C07F697008F33D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoomapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ukohank517.GoomapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Goomap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62E2374E1C07F697008F33D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoomapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ukohank517.GoomapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Goomap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62E237191C07F697008F33D1 /* Build configuration list for PBXProject "Goomap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E237441C07F697008F33D1 /* Debug */,
+				62E237451C07F697008F33D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E237461C07F697008F33D1 /* Build configuration list for PBXNativeTarget "Goomap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E237471C07F697008F33D1 /* Debug */,
+				62E237481C07F697008F33D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62E237491C07F697008F33D1 /* Build configuration list for PBXNativeTarget "GoomapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E2374A1C07F697008F33D1 /* Debug */,
+				62E2374B1C07F697008F33D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62E2374C1C07F697008F33D1 /* Build configuration list for PBXNativeTarget "GoomapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E2374D1C07F697008F33D1 /* Debug */,
+				62E2374E1C07F697008F33D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E237161C07F697008F33D1 /* Project object */;
+}
